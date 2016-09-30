@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #efd7d5;
+    color: #504444;
+}
+
+#header{
+    font-size: 400%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    min-width: 800px;
+}
+#pad_box{
+    padding: 10px;
+}
+#left-section{
+    max-width: 60%;
+    float: left;
+    padding: 10px;
+    min-width: 400px;
+}
+#right-section{
+    width: 30%;
+    float: right;
+    padding: 10px;
+    word-wrap: break-word;
+    min-width: 200px;
+    max-width: 400px;
+}
+#center-section{
+    width: 40%;
+    margin: auto;
+    min-width: 200px;
+}
+a{
+    color: #ff0000;
+}
+a:visited{
+    color: #ff0000;
+}

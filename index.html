@@ -1,65 +1,37 @@
 <!DOCTYPE html>
+<!-- This is a comment -->
 <html>
-<style>
-	html, body{
-		font-family: "Lucida Console", Monaco, monospace;
-	}
-	#header{
-		text-align: center;
-		background-color: black;
-		color: white;
-		padding: 20px;
-	}
-	#left-pad{
-		width: 10%;
-		float: left;
-	}
-	#left-section{
-		width: 20%;
-		float: left;
-		padding: 10px;
-		word-wrap: break-word;
-	}
-	#right-section{
-		background-color: #cccccc;
-		width: 40%;
-		float: left;
-		padding: 10px;
-	}
-</style>
 <head>
-		<title>이사</title>
+    <title>Andy's Pages</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://use.fontawesome.com/16645aae0e.js"></script>
 </head>
 <body>
-	<div id="header">
-		<h1>Andy Wong</h1>
-	</div>
-	<div id="left-pad">
-	<br>
-	</div>
-	<div id="left-section">
-		<h2>About</h2>
-			I'm Andy - a mechanical engineering student at the University of California, Berkeley. I'm interested in mechatronics and STEM education - primarily, a combination of both. Sometimes, I work a bit with <a href=https://pioneers.berkeley.edu>Pioneers in Engineering</a>, a student-led nonprofit that promotes STEM education through an exciting mentorship-based process facilitated by a yearly robotics competition in the Spring.
-	</div>
+    <div id="pad_box">
+        
+	<div id="header">Andy Wong<i class="fa fa-cog fa-spin fa-3x fa-fw" style="text-align: center"></i></div>
 	
-	<div id="right-section">
-		<h2>Perhaps you're interested in...</h2>
-		<ul>
-			<li>
-				<dl><dt><a href="https://medecinqui.github.io/cs-education-refresh">CS Education Refresh</a>
-				<dd> The start of a project to create a web-based simulator to aid students in writting software for competition robots ala PiE or FRC.
-				</dl>
-			<li>
-				<dl><dt><a href="https://medecinqui.github.io/page2.html">page2</a>
-				<dd>
-				</dl>
-		</ul>
-		<h2>Contact et al</h2>
-			under construction
-			email
-			linkedin
-			resume
-			portfolio
+
+    
+    <div id="center-section">
+		<!-- <h2 style="text-align: center">About</h2> -->
+        <div><br></div>
+        <div style="text-align: justify">
+           I'm Andy - a fourth-year mechanical engineering student at the University of California, Berkeley. I'm interested in mechatronics and STEM education - primarily, a combination of both. Sometimes, I work a bit with <a href=https://pioneers.berkeley.edu>PiE</a>, a student-led nonprofit that promotes STEM education through an exciting mentorship-based process facilitated by a yearly robotics competition in the Spring.
+        </div>
+        <div style="text-align: center">
+            <h2> </h2>
+            <i id="myemail">Email</i> <i id="mylinkedin">Linkedin</i> <i id="mygithub">Github</i>
+        </div>
+        <div style="text-align: center">
+            <br>
+            <i id="myfacebook">facebook</i> <i id="myinstagram">Instagram</i> <i id="mysteam">steam</i>
+        </div>
 	</div>
+    
+    </div>
 </body>
+<tail>
+    <script src="scripts_index.js"></script>
+</tail>
 </html>
