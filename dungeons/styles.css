@@ -1,0 +1,19 @@
+.icon_image{
+	max-height: 60px;
+	width: auto;
+	height:auto;
+}
+.center_banner{
+	display: block;
+	max-width: 80%;
+}
+body{
+	background-image: url("media/parchment.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+h2{
+	display: inline;
+	font-size: 30px;
+}
