@@ -24,6 +24,7 @@ body{
 .top-bar {
 	display: none;
 	text-align: center;
+	margin-top: 1em;
 }
 
 .left-bar {
