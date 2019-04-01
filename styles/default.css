@@ -1,0 +1,38 @@
+
+.container{
+	padding: 5em;
+}
+
+.top-bar {
+	display: none;
+	text-align: center;
+}
+
+.left-bar {
+	-ms-flex: 0 0 270px;
+	flex: 0 0 270px;
+	margin: 2em;
+	text-align: center;
+}
+
+.link {
+	margin: 2em;
+}
+
+
+.main {
+	margin: 2em;
+}
+
+/* bootstrap sm: 576; md: 768; lg: 992; xl: 1200 */
+@media screen and (max-width: 768px) {
+	.container{
+		padding: 0;
+	}
+	.left-bar {
+		display: none;
+	}
+	.top-bar {
+		display: initial;
+	}
+}
