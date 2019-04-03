@@ -1,10 +1,10 @@
 ---
-title: about
+title: resume
 layout: default
 ---
 
 # {{ page.title }}
 
-I'm Andy.
+Insert resume.
 
 { under construction }

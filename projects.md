@@ -1,10 +1,10 @@
 ---
-title: about
+title: projects
 layout: default
 ---
 
 # {{ page.title }}
 
-I'm Andy.
+Project listing here.
 
 { under construction }
